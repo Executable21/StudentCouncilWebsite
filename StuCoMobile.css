@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+img {
+	margin-left: 5em;
+}
+
+.mySlides {
+	border: 0.5px solid black;
+}
+#calendar {
+	position: absolute;
+	left: 438px;
+	top: 369px;
+	margin-left: -350px;
+	width: 1239px;
+	height: 762px;
+}
+#membertitle {
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: bold;
+    background: rgb(145,166,209);
+}
+#memberclass {
+	font-size: 1.875em;
+	text-align: center;
+	font-weight: bold;
+    background: rgb(145,166,209);
+}
+#student {
+	font-size: 1.25em;
+	text-align: center;
+    background: rgb(145,166,209);
+}
+iframe {
+	position: absolute;
+	left: 687px;
+	top: 363px;
+	margin-left: -350px;
+	width: 751px;
+	height: 983px;
+}
+#box {
+    border: 0.2em solid black;
+    margin-top: 4%;
+    width: 77.4%;
+    margin-left: 14%;
+    background: rgb(145,166,209);
+    margin: auto;
+    text-align: center;
+}
+#left_align div {
+    padding-top: 2em;
+}
+#right_align div {
+    padding-top: 2em;
+}
+#content {
+    text-align: center;
+    background: rgb(145,166,209);
+    border: 0.2em solid black;
+    margin-top: 0.625em;
+    width: 77.4%;
+    background: rgb(145,166,209); 
+    color: black;
+    margin: auto;
+}
+#content p {
+    font-size: 1.125em;
+    color: black;
+}
+#center {
+    margin: auto;
+    padding-top: 2em;
+}
