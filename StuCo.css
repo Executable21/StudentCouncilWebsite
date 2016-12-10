@@ -4,6 +4,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: bold;
+    font-size: 2em;
 }
 p {
     font-family: 'Lato', sans-serif;
@@ -17,12 +18,12 @@ img {
 	border: 0.5px solid black;
 }
 #calendar {
-	position: absolute;
-	left: 438px;
-	top: 369px;
-	margin-left: -350px;
-	width: 1239px;
-	height: 762px;
+	position: relative;
+	left: 27.375em;
+	top: 23.0625em;
+	margin-left: -21.875em;
+	width: 77.4375em;
+	height: 47.625em;
 }
 #membertitle {
 	font-size: 2.5em;
@@ -78,6 +79,9 @@ iframe {
     font-size: 1.125em;
     color: black;
 }
+#content h1 {
+    font-size: 2.25em;
+}
 #center {
     margin: auto;
     padding-top: 2em;
@@ -86,3 +90,90 @@ iframe {
     color: white;
     text-decoration: none;
 }
+#contactinfo {
+   font-family: 'Roboto', sans-serif;
+   padding-right: 30em;
+}
+#subjectinfo {
+    font-family: 'Roboto', sans-serif;
+}
+#subjectinfo input[type=text] {
+    padding-right: 30em;
+}
+#subjectinfo #question {
+    border: 0.1625em solid black;
+}
+#question {
+    
+}
+#submitbutton {
+    font-family: 'Roboto', sans-serif;
+    
+}
+input[type=text], select {
+    width: 100%;
+    padding: 0.75em 1.125em;
+    margin:  auto;
+    display: inline-block;
+    border: 0.0625em solid black;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+}
+#contactform {
+    border: 0.2em solid black;
+    margin-top: 4%;
+    width: 77.4%;
+    margin-left: 14%;
+    background: rgb(145,166,209);
+    margin: auto;
+    text-align: left;
+    padding-left: 1.125em;
+    padding-right: 1.125em;
+}
+input[type=text], input[type=email], input[type=question], select {
+    width: 100%;
+    padding: 0.75em 1.125em;
+    margin:  auto;
+    display: inline-block;
+    border: 0.1625em solid black;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    padding-right: 30em;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0.8em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    font-size: 1.25em;
+}
+textarea {
+    width: 75.985em;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+}
+input[type=email] {
+    padding-right: 30em;
+}
+
+#legend {
+    color: black;
+    font-size: 1.25em;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+}
+label {
+}
+form {
+    color: black;
+}
+placeholder {
+    color: black;

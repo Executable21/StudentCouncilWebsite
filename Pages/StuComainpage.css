@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+#calendar {
+	position: absolute;
+	left: 438px;
+	top: 369px;
+	margin-left: -350px;
+	width: 1239px;
+	height: 762px;
+}
+#membertitle {
+	font-size:40px;
+	text-align: center;
+	font-weight: bolder;
+    background: rgb(145,166,209);
+}
+#memberclass {
+	font-size:30px;
+	text-align: center;
+	font-weight: bold;
+    background: rgb(145,166,209);
+}
+#student {
+	font-size: 20px;
+	text-align: center;
+    background: rgb(145,166,209);
+}
+iframe {
+	position: absolute;
+	left: 687px;
+	top: 363px;
+	margin-left: -350px;
+	width: 751px;
+	height: 983px;
+}
+#box {
+    border: 0.2em solid black;
+    border-bottom: 0.1em solid black;
+    margin-top: 4em;
+    width: 77.4em;
+    margin-left: 14em;
+    background: rgb(145,166,209);
+    margin: auto;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+#box2 {
+    border: 0.2em solid black;
+    border-top: 0.1em solid black;
+    margin-top: 20em;
+    width: 77.4em;
+    margin-left: 14em;
+    background: rgb(145,166,209);
+    margin: auto;
+    padding-top: 3.75em;
+    padding-bottom: 3.75em;
+}
+#left_align div {
+    padding-top: 2em;
+}
+#right_align div {
+    padding-top: 2em;
+}
+
+#left_align p {
+    text-align: center;
+    border: 0.2em solid black;
+    display: inline-block;
+    float: left;
+    margin-left: 80px;
+    width: 700px;
+    height: 600px;
+    padding: 2px;
+    position: relative;
+    background: rgb(145,166,209);
+    padding-top: 2px;
+}
+#right_align p {
+    text-align: center;
+    border: 0.2em solid black;
+    display: inline-block;
+    float: right;
+    margin-right: 80px;
+    width: 400px;
+    height: 600px;
+    padding: 1px;
+    position: relative;
+    background: rgb(145,166,209);
+    padding-top: 2px;
+    
+}
+#content {
+    margin: auto;
+    text-align: center;
+    background: rgb(145,166,209);
+    border: 0.2em solid black;
+    margin-top: 2em;
+    width: 77.4em;
+    background: rgb(145,166,209); 
+}
+.landing {
+    padding: 0 0 0 0;
+    margin: 0;
+}
+div.img {
+    border: 2px solid black;
+    margin-bottom: 1em;
+}
+
+div.img:hover {
+    border: 2px solid black;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid black;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: roboto;
+    color: black;
+    font-weight: bold;
+    background: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

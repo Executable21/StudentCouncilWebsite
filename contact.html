@@ -57,7 +57,7 @@ var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenu
     &nbsp;
 </div>
 <div id="content">
-    <h1>Contact Mrs. Zahner at:</h1>
+    <h1>Contact Ms. Zahner at:</h1>
    <p>Email: <a href="mailto:ZahnerK@usd231.com?Subject=Hello%20again" target="_top">ZahnerK@usd231.com</a>
         Phone Number: (913) 856-2606</p>
       </div>
@@ -74,6 +74,34 @@ var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenu
     <div id="content">
     <h1>District Links</h1>
         <p>District Website: <a href="http://www.usd231.com">USD231.com</a></p>
-    </div>     
+    </div>
+           <div class="spacer">
+    &nbsp;
+</div>
+    <div id="contactform">
+         <form name="contact" onsubmit="return validateForm()" method="post" action="php/form.php">
+             <fieldset id="contactinfo">
+                 <legend id="legend">Contact Information (so we can respond to your message)</legend>
+                    <label>Name: <input type="text" required id="name" name="name" placeholder="Name" /></label>
+                    <label>Email: <input type="email" required id="email" name="email" placeholder="address@example.com" /></label>
+                        <div class="spacer">
+    &nbsp;
+</div>   
+             </fieldset> 
+                <fieldset id="subjectinfo">
+                 <legend id="legend">What are you contacting us about?</legend>
+                    <label>Subject: <input type="text" required id="subject" name="subject" placeholder="Short description of your issue..." /></label>
+                    <label>
+                     Explain your issue or question: <br />
+                     <textarea id="question" rows="5" cols="89" maxlength="10000" name="message" ></textarea>
+                    </label>
+                </fieldset>
+                <fieldset id="submitbutton">
+                 <input type="submit" id="submit" name="submit" value="Submit" />
+                </fieldset>
+            </form>
+      
+     </div>
+
     </body>
 </html>
