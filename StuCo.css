@@ -17,6 +17,9 @@ img {
 .mySlides {
 	border: 0.5px solid black;
 }
+.block {
+    text-align: center;
+}
 #calendar {
 	position: relative;
 	left: 27.375em;
@@ -41,14 +44,6 @@ img {
 	font-size: 1.25em;
 	text-align: center;
     background: rgb(145,166,209);
-}
-iframe {
-	position: absolute;
-	left: 687px;
-	top: 363px;
-	margin-left: -350px;
-	width: 751px;
-	height: 983px;
 }
 #box {
     border: 0.2em solid black;
